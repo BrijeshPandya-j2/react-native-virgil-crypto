@@ -90,13 +90,13 @@ def configureReactNativePom(def pom) {
         description packageJson.description
         url packageJson.repository
 
-        licenses {
-            license {
-                name packageJson.license
-                url packageJson.repository + '/blob/master/LICENSE'
-                distribution 'repo'
-            }
-        }
+        // licenses {
+        //     license {
+        //         name packageJson.license
+        //         url packageJson.repository + '/blob/master/LICENSE'
+        //         distribution 'repo'
+        //     }
+        // }
 
         developers {
             developer {
